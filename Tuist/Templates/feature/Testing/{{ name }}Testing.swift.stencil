@@ -1,0 +1,24 @@
+//
+//  {{ name }}Testing.swift
+//  {{ name }}Testing
+//
+//  Created by 강대훈.
+//
+
+import Foundation
+import {{ name }}Interface
+
+// 테스트용 Mock 구현
+public struct Mock{{ name }}: {{ name }}Protocol {
+    public init() {}
+    
+    public func doSomething() {
+        print("Mock{{ name }} is working")
+    }
+}
+
+// 테스트 데이터 및 헬퍼 함수
+public struct {{ name }}TestData {
+    public static let sampleData = "Test Data"
+}
+

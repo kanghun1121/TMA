@@ -1,0 +1,22 @@
+//
+//  Project.swift
+//  Manifests
+//
+//  Created by 강대훈.
+//
+
+import ProjectDescription
+import ProjectDescriptionHelpers
+
+let project = Project(
+    name: Module.Feature.{{ name|lowercase }}.rawValue,
+    settings: Project.featureSettings(),
+    targets: [
+        .feature(interface: .{{ name|lowercase }}),
+        .feature(.{{ name|lowercase }}),
+        .feature(testing: .{{ name|lowercase }}),
+        .feature(tests: .{{ name|lowercase }}),
+        .feature(example: .{{ name|lowercase }})
+    ]
+)
+

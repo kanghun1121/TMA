@@ -1,0 +1,18 @@
+//
+//  {{ name }}.swift
+//  {{ name }}
+//
+//  Created by 강대훈.
+//
+
+import Foundation
+import {{ name }}Interface
+
+public struct {{ name }}: {{ name }}Protocol {
+    public init() {}
+    
+    public func doSomething() {
+        print("{{ name }} is working")
+    }
+}
+

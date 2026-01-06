@@ -1,0 +1,19 @@
+//
+//  App.swift
+//  {{ name }}Example
+//
+//  Created by 강대훈.
+//
+
+import SwiftUI
+import {{ name }}
+
+@main
+struct {{ name }}ExampleApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+

@@ -1,0 +1,25 @@
+//
+//  {{ name }}Tests.swift
+//  {{ name }}Tests
+//
+//  Created by 강대훈.
+//
+
+import XCTest
+@testable import {{ name }}
+@testable import {{ name }}Testing
+
+final class {{ name }}Tests: XCTestCase {
+    func test{{ name }}() {
+        let {{ name|lowercase }} = {{ name }}()
+        {{ name|lowercase }}.doSomething()
+        XCTAssertTrue(true)
+    }
+    
+    func testMock{{ name }}() {
+        let mock{{ name }} = Mock{{ name }}()
+        mock{{ name }}.doSomething()
+        XCTAssertTrue(true)
+    }
+}
+

@@ -1,0 +1,22 @@
+//
+//  {{ name }}Interface.swift
+//  {{ name }}Interface
+//
+//  Created by 강대훈.
+//
+
+import Foundation
+
+// 외부에 공개할 API 정의
+public protocol {{ name }}Protocol {
+    func doSomething()
+}
+
+public struct {{ name }}Interface {
+    public init() {}
+    
+    public func doSomething() {
+        print("{{ name }}Interface is working")
+    }
+}
+

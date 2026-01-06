@@ -1,0 +1,24 @@
+//
+//  ContentView.swift
+//  {{ name }}Example
+//
+//  Created by 강대훈.
+//
+
+import SwiftUI
+import {{ name }}
+
+struct ContentView: View {
+    
+    var body: some View {
+        VStack {
+            Text("{{ name }}")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
+
